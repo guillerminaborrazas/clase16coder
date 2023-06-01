@@ -1,0 +1,19 @@
+git init: comando para inicializar git en cuestro proyecto
+git --version: para ver la version de git
+configuracion de git:
+    git config --global user.name "Guillermina Borrazas"
+    git config --global user.email
+    git config --global core.editor (para asignarle ek editor)
+    para ver las config: git config --list
+trabajando con git
+    -git init: comando para inicializar git en cuestro proyecto
+    -git remote add orogin link le copio la url del repositorio y queda vinculado a github
+    -git status revisamos el estado de nuestro proyecto
+    ROJO:Archivos q no hemos procesado o mandado a github
+    -para agregarlo hacemos git add main.py
+    Comando para agregar a la lista de elementos a enviar a github
+    -git add nombrearchivo para agregar el archivo a github
+    -git add * o git add . selecciona toda la carpeta 
+    Comando para darle descripcion al cambio
+    -git commit -m "Mensaje descriptivo del cambio"
+    
