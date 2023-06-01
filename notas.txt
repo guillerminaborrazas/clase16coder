@@ -16,4 +16,17 @@ trabajando con git
     -git add * o git add . selecciona toda la carpeta 
     Comando para darle descripcion al cambio
     -git commit -m "Mensaje descriptivo del cambio"
-    
+    Para mandarlo al github
+    -git push -u origin master
+Ramas y master:
+    trabajamos sobre ramas para no modificar lo principal y deps
+    unimos todo
+    Para listar nuestras ramas:
+    -git branch
+    Para crear nueva rama:
+    -git checkout -b ramaB para crear una nueva rama
+    Las ramas sirven para no trabajar directo sobre el proyecto
+    -git checkout rama para cambiar entre ramas
+    Para setear los valores de una rama hacia otra
+    me tengo q posicionar en la rama maestra
+    -git merge ramaB
